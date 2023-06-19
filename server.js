@@ -38,7 +38,7 @@ app.post('/users', async (req, res) => {
 app.put('/users/:id', async (req, res) => {
   const id = Number(req.params.id);
 
-  let user = data.filter(user => user.id === id);
+  let user = users.filter(user => user.id === id);
 
   user = req.body;
 
