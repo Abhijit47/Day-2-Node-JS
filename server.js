@@ -1,6 +1,5 @@
 const express = require('express');
 const users = require('./Users');
-const data = require('./data.json');
 
 // Initiate app with express
 const app = express();
