@@ -1,0 +1,42 @@
+###
+#Default Route point
+GET http://localhost:9999
+
+###
+#Get All Users
+GET http://localhost:9999/users
+
+###
+#Get one by ID
+GET http://localhost:9999/users/1
+
+###
+#Create one
+POST http://localhost:9999/users/
+content-type: application/json
+
+{
+  "id":11,
+  "name":"Abhijit Karmakar",
+  "username":"abhijit",
+  "email":"abhijit@gmail.com"
+}
+
+###
+#Update one by ID
+PUT http://localhost:9999/users/11
+content-type: application/json
+
+{
+  "name":"Abhijit",
+  "username":"abhijit001",
+  "email":"abhijit@gmail.com"
+}
+
+###
+#Delete one By ID
+DELETE http://localhost:9999/users/10
+
+###
+#Garbage Route
+GET http://localhost:9999/sfdsdfsdf

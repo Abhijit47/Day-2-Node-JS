@@ -1,0 +1,16 @@
+{
+  "name": "day2-node-js",
+  "version": "1.0.0",
+  "description": "This is a simple nodejs practice for creating a basic server with the help of express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Abhijit Karmakar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
